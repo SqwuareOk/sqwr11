@@ -1,0 +1,62 @@
+@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+    body {
+      zoom: 300%;
+    }
+  }
+  body {
+    background-color: #ffffff;
+    background-image: url('wp11016475-damascus-steel-wallpapers.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    margin: 0; /* Removes default margin */
+  }
+  img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .shadowM {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 76%;
+    height: 76%;
+    background-color: #000000;
+    transform: translate(-50%, -50%);
+  }
+  .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 99%;
+    height: 99%;
+    background-color: #232424;
+    transform: translate(-50%, -50%);
+    outline: #000000;
+  }
+  .audio-button {
+    position: absolute;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    top: 30px;
+    left: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cookie {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+  }
+  #counter {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+  }
